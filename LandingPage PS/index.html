@@ -1,0 +1,1404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GameRush | YOUR FUN OUR MISSION</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&family=Press+Start+2P&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+
+  <div class="announcement">
+    <span>
+      <i class="fa-solid fa-bolt"></i>
+      YOUR FUN, OUR MISSION!
+    </span>
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header class="site-header" id="header">
+
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        GAME<span>RUSH.</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">HOME</a>
+        <a href="#games" class="nav-link">GAMES</a>
+        <a href="#categories" class="nav-link">CATEGORIES</a>
+        <a href="#deals" class="nav-link">DISCOVER</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </div>
+
+      <div class="nav-actions">
+
+        <button id="searchToggle"
+                class="icon-btn"
+                aria-label="Search games"
+                aria-expanded="false">
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+        </button>
+
+        <button id="menuToggle"
+                class="icon-btn menu-toggle"
+                aria-label="Toggle menu"
+                aria-expanded="false">
+
+          <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+      </div>
+
+    </nav>
+
+    <div class="search-panel" id="searchPanel" hidden>
+
+      <div class="container search-inner">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="search"
+               id="searchInput"
+               placeholder="Search your next adventure..."
+               aria-label="Search games">
+
+        <button class="icon-btn"
+                id="closeSearch"
+                aria-label="Close search">
+
+          <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- ===================================
+         HERO SLIDESHOW
+    ==================================== -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-slider" id="heroSlider">
+
+
+        <!-- SLIDE 1 - SPIDER-MAN -->
+
+        <article class="hero-slide active">
+
+          <div class="hero-background">
+
+            <img src="PSImages/spidermanCover.jpg"
+                 alt="Marvel's Spider-Man 2"
+                 class="hero-image">
+
+            <div class="hero-overlay"></div>
+
+          </div>
+
+          <div class="container hero-content">
+
+            <div class="hero-copy">
+
+              <span class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                TWO HEROES. ONE CITY.
+              </span>
+
+              <span class="hero-platform">
+                PLAYSTATION 5
+              </span>
+
+              <h1>
+                Beyond<br>
+                <em>The Mask.</em>
+              </h1>
+
+              <p>
+                Swing through the streets of New York,
+                unleash extraordinary powers and face
+                thrilling challenges as Peter Parker and
+                Miles Morales fight to protect their city.
+              </p>
+
+              <div class="hero-buttons">
+
+                <a href="#games" class="btn btn-primary">
+                  EXPLORE GAMES
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <a href="#categories" class="btn btn-outline">
+                  DISCOVER MORE
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <span class="hero-number">01</span>
+
+        </article>
+
+
+        <!-- SLIDE 2 - WOLVERINE -->
+
+        <article class="hero-slide">
+
+          <div class="hero-background">
+
+            <img src="PSImages/hero-wolverine.jpg"
+                 alt="Marvel's Wolverine"
+                 class="hero-image">
+
+            <div class="hero-overlay"></div>
+
+          </div>
+
+          <div class="container hero-content">
+
+            <div class="hero-copy">
+
+              <span class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                UNBREAKABLE. UNSTOPPABLE.
+              </span>
+
+              <span class="hero-platform">
+                PLAYSTATION 5
+              </span>
+
+              <h1>
+                Unleash<br>
+                <em>The Beast.</em>
+              </h1>
+
+              <p>
+                Step into the world of Logan and embrace
+                the power of Wolverine. Discover a darker
+                adventure filled with intense action,
+                raw strength and relentless determination.
+              </p>
+
+              <div class="hero-buttons">
+
+                <a href="#games" class="btn btn-primary">
+                  EXPLORE GAMES
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <a href="#categories" class="btn btn-outline">
+                  DISCOVER MORE
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <span class="hero-number">02</span>
+
+        </article>
+
+
+        <!-- SLIDE 3 - GOD OF WAR -->
+
+        <article class="hero-slide">
+
+          <div class="hero-background">
+
+            <img src="PSImages/hero-godofwar.jpg"
+                 alt="God of War Ragnarok"
+                 class="hero-image">
+
+            <div class="hero-overlay"></div>
+
+          </div>
+
+          <div class="container hero-content">
+
+            <div class="hero-copy">
+
+              <span class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                LEGENDS NEVER FALL
+              </span>
+
+              <span class="hero-platform">
+                PLAYSTATION 5 / PLAYSTATION 4
+              </span>
+
+              <h1>
+                Defy Your<br>
+                <em>Destiny.</em>
+              </h1>
+
+              <p>
+                Journey through the Nine Realms,
+                confront powerful gods and unleash
+                the fury of Kratos in an epic adventure
+                where courage, sacrifice and destiny collide.
+              </p>
+
+              <div class="hero-buttons">
+
+                <a href="#games" class="btn btn-primary">
+                  EXPLORE GAMES
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <a href="#categories" class="btn btn-outline">
+                  DISCOVER MORE
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <span class="hero-number">03</span>
+
+        </article>
+
+      </div>
+
+
+      <!-- SLIDESHOW CONTROLS -->
+
+      <div class="hero-controls container">
+
+        <div class="slide-count">
+          <span id="currentSlide">01</span>
+          <span class="separator">/</span>
+          <span>03</span>
+        </div>
+
+        <div class="slide-indicators">
+
+          <button class="slide-indicator active"
+                  data-slide-to="0"
+                  aria-label="Slide 1">
+          </button>
+
+          <button class="slide-indicator"
+                  data-slide-to="1"
+                  aria-label="Slide 2">
+          </button>
+
+          <button class="slide-indicator"
+                  data-slide-to="2"
+                  aria-label="Slide 3">
+          </button>
+
+        </div>
+
+        <div class="slide-arrows">
+
+          <button id="prevSlide" aria-label="Previous slide">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+
+          <button id="nextSlide" aria-label="Next slide">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MOVING TICKER -->
+
+    <div class="ticker" aria-hidden="true">
+
+      <div class="ticker-track">
+
+        <span>
+          BEYOND EVERY LIMIT ✦ POWERED BY PLAY ✦
+          YOUR NEXT ADVENTURE ✦ GAME WITHOUT BOUNDARIES ✦
+        </span>
+
+        <span>
+          BEYOND EVERY LIMIT ✦ POWERED BY PLAY ✦
+          YOUR NEXT ADVENTURE ✦ GAME WITHOUT BOUNDARIES ✦
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================
+         GAME CATALOG
+    ==================================== -->
+
+    <section id="games" class="games-section section-padding">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <span class="section-label">
+              01 / THE COLLECTION
+            </span>
+
+            <h2>
+              Find Your<br>
+              <em>Next Game.</em>
+            </h2>
+
+            <p>
+              Explore our collection of PlayStation
+              games and choose the perfect account
+              for your console.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- GAME FILTERS -->
+
+        <div class="catalog-toolbar">
+
+          <div class="game-filters" id="gameFilters">
+
+            <button class="filter-btn active"
+                    data-filter="all"
+                    aria-pressed="true">
+              ALL GAMES
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="ps5"
+                    aria-pressed="false">
+              PS5
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="ps4"
+                    aria-pressed="false">
+              PS4
+            </button>
+
+          </div>
+
+          <div class="catalog-search">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="search"
+                   id="catalogSearch"
+                   placeholder="Search games..."
+                   aria-label="Search game collection">
+
+          </div>
+
+        </div>
+
+        <div class="catalog-counter">
+          <span id="gameCount">11 GAMES FOUND</span>
+        </div>
+
+
+        <!-- GAME CARDS -->
+
+        <div class="games-grid" id="gamesGrid">
+
+
+          <!-- GAME 01 - SPIDER-MAN 2 -->
+
+          <article class="game-card catalog-card"
+                   data-id="spiderman2"
+                   data-platforms="ps5">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/spiderman2.jpeg"
+                   alt="Marvel's Spider-Man 2"
+                   loading="lazy">
+
+              <span class="game-badge">PS5</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Marvel's Spider-Man 2</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 02 - WOLVERINE -->
+
+          <article class="game-card catalog-card"
+                   data-id="wolverine"
+                   data-platforms="ps5">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/wolverine.jpg"
+                   alt="Marvel's Wolverine"
+                   loading="lazy">
+
+              <span class="game-badge">PS5</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Marvel's Wolverine</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 03 - 007 -->
+
+          <article class="game-card catalog-card"
+                   data-id="007"
+                   data-platforms="ps5">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/007.jpg"
+                   alt="007"
+                   loading="lazy">
+
+              <span class="game-badge">PS5</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>007</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 04 - FC 27 -->
+
+          <article class="game-card catalog-card"
+                   data-id="fc27"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/fc27.jpg"
+                   alt="EA Sports FC 27"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>EA Sports FC 27</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 05 - MILES MORALES -->
+
+          <article class="game-card catalog-card"
+                   data-id="milesmorales"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/milesmorales.jpg"
+                   alt="Spider-Man Miles Morales"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Spider-Man Miles Morales</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 06 - MARVEL'S SPIDER-MAN -->
+
+          <article class="game-card catalog-card"
+                   data-id="spiderman"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/spiderman.jpg"
+                   alt="Marvel's Spider-Man"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Marvel's Spider-Man</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 07 - FORZA HORIZON 5 -->
+
+          <article class="game-card catalog-card"
+                   data-id="forza5"
+                   data-platforms="ps5">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/forza.jpg"
+                   alt="Forza Horizon 5"
+                   loading="lazy">
+
+              <span class="game-badge">PS5</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Forza Horizon 5</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 08 - GOD OF WAR -->
+
+          <article class="game-card catalog-card"
+                   data-id="godofwar"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/godofwarcard.jpg"
+                   alt="God of War Ragnarok"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>God of War Ragnarök</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 09 - RED DEAD REDEMPTION -->
+
+          <article class="game-card catalog-card"
+                   data-id="rdr2"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/redredemption.jpg"
+                   alt="Red Dead Redemption 2"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Red Dead Redemption 2</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 10 - CRASH TEAM RACING -->
+
+          <article class="game-card catalog-card"
+                   data-id="crash"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/ctr.jpg"
+                   alt="Crash Team Racing"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>Crash Team Racing</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GAME 11 - GTA V -->
+
+          <article class="game-card catalog-card"
+                   data-id="gta5"
+                   data-platforms="ps5 ps4">
+
+            <div class="game-image-wrapper">
+
+              <img src="PSImages/gta5.png"
+                   alt="Grand Theft Auto V"
+                   loading="lazy">
+
+              <span class="game-badge">PS5 / PS4</span>
+
+            </div>
+
+            <div class="catalog-details">
+
+              <h3>GTA V</h3>
+
+              <div class="catalog-options consoles"></div>
+              <div class="catalog-options editions"></div>
+              <div class="price-list"></div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- EMPTY SEARCH RESULTS -->
+
+        <div class="empty-results" id="emptyResults" hidden>
+
+          <i class="fa-solid fa-gamepad"></i>
+
+          <h3>No Games Found</h3>
+
+          <p>
+            Try searching for another game or changing the filter.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================
+         PROMOTION
+    ==================================== -->
+
+    <section class="promo-section" id="deals">
+
+      <div class="container">
+
+        <div class="promo-card reveal">
+
+          <div class="promo-content">
+
+            <span class="promo-label">
+              <i class="fa-solid fa-bolt"></i>
+              YOUR NEXT LEVEL
+            </span>
+
+            <h2>
+              More Games.<br>
+              More Adventures.
+            </h2>
+
+            <p>
+              Find your favorite PlayStation titles
+              and explore new gaming experiences
+              with GameRush.
+            </p>
+
+            <a href="#games" class="btn btn-dark">
+
+              EXPLORE COLLECTION
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+          </div>
+
+          <div class="promo-art" aria-hidden="true">
+            <i class="fa-solid fa-gamepad"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================
+         CATEGORIES
+    ==================================== -->
+
+    <section class="categories-section section-padding"
+             id="categories">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <span class="section-label">
+              02 / CHOOSE YOUR PLATFORM
+            </span>
+
+            <h2>
+              Your Console.<br>
+              <em>Your Rules.</em>
+            </h2>
+
+            <p>
+              Discover games compatible with
+              your favorite PlayStation console.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="categories-grid">
+
+          <a href="#games"
+             class="category-card reveal"
+             data-category-filter="ps5">
+
+            <span class="category-number">01</span>
+
+            <i class="fa-brands fa-playstation category-icon"></i>
+
+            <h3>PlayStation 5</h3>
+
+            <p>Discover next-generation gaming.</p>
+
+            <span class="category-link">
+              EXPLORE PS5
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+
+          <a href="#games"
+             class="category-card reveal"
+             data-category-filter="ps4">
+
+            <span class="category-number">02</span>
+
+            <i class="fa-solid fa-gamepad category-icon"></i>
+
+            <h3>PlayStation 4</h3>
+
+            <p>Explore iconic games and adventures.</p>
+
+            <span class="category-link">
+              EXPLORE PS4
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+
+          <a href="#games"
+             class="category-card reveal"
+             data-category-filter="all">
+
+            <span class="category-number">03</span>
+
+            <i class="fa-solid fa-layer-group category-icon"></i>
+
+            <h3>All Games</h3>
+
+            <p>Find your next favorite game.</p>
+
+            <span class="category-link">
+              VIEW COLLECTION
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================
+         FREQUENTLY ASKED QUESTIONS
+    ==================================== -->
+
+    <section class="faq-section section-padding" id="faq">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <span class="section-label">
+              03 / NEED HELP?
+            </span>
+
+            <h2>
+              Got Questions?<br>
+              <em>We've Got Answers.</em>
+            </h2>
+
+            <p>
+              Everything you need to know before
+              starting your next gaming adventure.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-grid">
+
+
+          <!-- QUESTION 1 -->
+
+          <details class="faq-item">
+
+            <summary>
+              <span>
+                What is the difference between Primary and Secondary accounts?
+              </span>
+
+              <i class="fa-solid fa-plus"></i>
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+                <strong>Primary Account:</strong>
+                Play your purchased game or use PS Plus directly
+                from your personal PlayStation account without
+                requiring a constant internet connection.
+                Do not log into the purchased account again
+                after activation.
+              </p>
+
+              <br>
+
+              <p>
+                <strong>Secondary Account:</strong>
+                Play directly from the provided account with
+                a constant internet connection.
+                PS4 users can switch to their personal account.
+                Changing account credentials, adding security
+                settings or activating the account as Primary
+                is not permitted.
+              </p>
+
+              <br>
+
+              <p>
+                <strong>Full Account:</strong>
+                Receive the complete account credentials.
+                The account can be used on up to three consoles,
+                with a combination of PS4 and PS5 devices.
+              </p>
+
+              <br>
+
+              <p>
+                GameRush provides activation support for all
+                account types.
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <!-- QUESTION 2 -->
+
+          <details class="faq-item">
+
+            <summary>
+
+              <span>How do I order a game?</span>
+
+              <i class="fa-solid fa-plus"></i>
+
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+                Ordering from GameRush is quick and easy!
+              </p>
+
+              <br>
+
+              <ol style="padding-left: 22px;">
+
+                <li>Browse our game collection.</li>
+
+                <li>Choose your preferred game and console.</li>
+
+                <li>Select your preferred account type.</li>
+
+                <li>Contact us through WhatsApp or Messenger.</li>
+
+                <li>Confirm your order and complete the payment.</li>
+
+              </ol>
+
+              <br>
+
+              <p>
+                Once your payment is confirmed, your account
+                will be delivered within 10 minutes.
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <!-- QUESTION 3 -->
+
+          <details class="faq-item">
+
+            <summary>
+
+              <span>What payment methods are available?</span>
+
+              <i class="fa-solid fa-plus"></i>
+
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+                We offer several convenient payment methods:
+              </p>
+
+              <br>
+
+              <ul style="padding-left: 22px;">
+
+                <li>Vodafone Cash</li>
+
+                <li>InstaPay</li>
+
+                <li>Telda</li>
+
+                <li>Binance (for international payments)</li>
+
+              </ul>
+
+              <br>
+
+              <p>
+                Contact our team through WhatsApp or Messenger
+                to receive the payment details and confirm
+                your order.
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <!-- QUESTION 4 -->
+
+          <details class="faq-item">
+
+            <summary>
+
+              <span>
+                How will I receive my game after payment?
+              </span>
+
+              <i class="fa-solid fa-plus"></i>
+
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+                Once your payment has been confirmed,
+                your account will be delivered within 10 minutes.
+              </p>
+
+              <br>
+
+              <p>
+                <strong>Primary and Secondary Accounts:</strong>
+                Your account will be provided through a QR code
+                for activation on your PlayStation console.
+              </p>
+
+              <br>
+
+              <p>
+                <strong>Full Accounts:</strong>
+                You will receive the complete account credentials.
+              </p>
+
+              <br>
+
+              <p>
+                Both provided accounts and personal account
+                options are available. Our team will guide you
+                through the activation process and provide
+                assistance whenever needed.
+              </p>
+
+            </div>
+
+          </details>
+
+        </div>
+
+
+        <!-- FAQ CONTACT AREA -->
+
+        <div class="faq-contact reveal">
+
+          <div>
+
+            <h3>Still Have Questions?</h3>
+
+            <p>Get in touch with the GameRush team.</p>
+
+          </div>
+
+          <div class="faq-contact-buttons">
+
+            <a class="contact-btn whatsapp-btn"
+               data-social="whatsapp"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp
+
+            </a>
+
+            <a class="contact-btn messenger-btn"
+               data-social="messenger"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <i class="fa-brands fa-facebook-messenger"></i>
+              Messenger
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===================================
+       FOOTER
+  ==================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <a href="#home" class="logo">
+            GAME<span>RUSH.</span>
+          </a>
+
+          <p>
+            Your next gaming adventure starts here.
+            Discover PlayStation games and level up
+            your experience with GameRush.
+          </p>
+
+          <div class="footer-socials">
+
+            <a data-social="facebook"
+               aria-label="Facebook"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <i class="fa-brands fa-facebook-f"></i>
+
+            </a>
+
+            <a data-social="messenger"
+               aria-label="Messenger"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <i class="fa-brands fa-facebook-messenger"></i>
+
+            </a>
+
+            <a data-social="whatsapp"
+               aria-label="WhatsApp"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <i class="fa-brands fa-whatsapp"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h3>QUICK LINKS</h3>
+
+          <a href="#home">Home</a>
+          <a href="#games">Games</a>
+          <a href="#categories">Categories</a>
+          <a href="#faq">FAQ</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h3>PLATFORMS</h3>
+
+          <a href="#games" data-footer-filter="ps5">
+            PlayStation 5
+          </a>
+
+          <a href="#games" data-footer-filter="ps4">
+            PlayStation 4
+          </a>
+
+          <a href="#games" data-footer-filter="all">
+            All Games
+          </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h3>CONTACT US</h3>
+
+          <a data-social="whatsapp"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            <i class="fa-brands fa-whatsapp"></i>
+            01127128720
+
+          </a>
+
+          <a data-social="facebook"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            <i class="fa-brands fa-facebook"></i>
+            GameRush
+
+          </a>
+
+          <a data-social="messenger"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            <i class="fa-brands fa-facebook-messenger"></i>
+            Message Us
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <p>
+          &copy; <span id="currentYear">2026</span>
+          GameRush. All rights reserved.
+        </p>
+
+        <span class="footer-tagline">
+          PLAY BEYOND LIMITS.
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ===================================
+       FLOATING SOCIAL MEDIA BUTTONS
+  ==================================== -->
+
+  <div class="floating-socials">
+
+    <a class="floating-social facebook-float"
+       data-social="facebook"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Visit Facebook">
+
+      <span class="social-tooltip">Facebook</span>
+
+      <i class="fa-brands fa-facebook-f"></i>
+
+    </a>
+
+
+    <a class="floating-social messenger-float"
+       data-social="messenger"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contact us on Messenger">
+
+      <span class="social-tooltip">Messenger</span>
+
+      <i class="fa-brands fa-facebook-messenger"></i>
+
+    </a>
+
+
+    <a class="floating-social whatsapp-float"
+       data-social="whatsapp"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contact us on WhatsApp">
+
+      <span class="social-tooltip">WhatsApp</span>
+
+      <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+  </div>
+
+</body>
+</html>
