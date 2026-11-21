@@ -2895,3 +2895,9 @@ a[data-order-link]:not([href]) {
   }
 
 }
+
+@media screen and (max-width: 768px) {
+    .ticker-track {
+        animation-duration: 80s !important;
+    }
+}
